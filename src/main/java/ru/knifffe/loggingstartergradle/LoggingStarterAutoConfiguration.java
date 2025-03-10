@@ -1,7 +1,14 @@
 package ru.knifffe.loggingstartergradle;
 
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import ru.knifffe.loggingstartergradle.aspect.LogExecutionAspect;
+
+@AutoConfiguration
 public class LoggingStarterAutoConfiguration {
-    public static void println(String message) {
-        System.out.println("gradle: "+message);
+
+    @Bean
+    public LogExecutionAspect logExecutionAspect() {
+        return new LogExecutionAspect();
     }
 }

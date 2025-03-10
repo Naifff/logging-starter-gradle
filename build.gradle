@@ -4,14 +4,19 @@ plugins {
 }
 
 group = 'ru.knifffe'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2-SNAPSHOT'
 
 repositories {
     mavenLocal()
     mavenCentral()
 }
 
+def springVersion  = '3.2.5'
+
 dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-web:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-aop:${springVersion}"
+
 
 }
 
@@ -23,7 +28,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = rootProject.getGroup()
-			artifactId = rootProject.getName()
+            artifactId = rootProject.getName()
             version = rootProject.getVersion()
 
             from components.java
