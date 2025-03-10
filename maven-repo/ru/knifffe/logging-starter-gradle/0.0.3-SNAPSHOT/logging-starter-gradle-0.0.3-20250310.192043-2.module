@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.knifffe",
+    "module": "logging-starter-gradle",
+    "version": "0.0.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "logging-starter-gradle-0.0.3-SNAPSHOT.jar",
+          "url": "logging-starter-gradle-0.0.3-SNAPSHOT.jar",
+          "size": 9186,
+          "sha512": "e02ca23a44816b03decbbd998e7b6949e506f88afba8dcafb092523e83318526d2e7310fbc22fdd6cbc2ba418124fd8acf1015b13aaf443d30331121b5a255d9",
+          "sha256": "a42c8b9a322265a16c9f1a0b5c2f1ee379a8b259975fa9e157e282c2a25e3406",
+          "sha1": "b4a7d1d613687230b68d0359ed0dff1da432bd4b",
+          "md5": "091b78755d072cea8aca4bd5161e23d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.2.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-starter-gradle-0.0.3-SNAPSHOT.jar",
+          "url": "logging-starter-gradle-0.0.3-SNAPSHOT.jar",
+          "size": 9186,
+          "sha512": "e02ca23a44816b03decbbd998e7b6949e506f88afba8dcafb092523e83318526d2e7310fbc22fdd6cbc2ba418124fd8acf1015b13aaf443d30331121b5a255d9",
+          "sha256": "a42c8b9a322265a16c9f1a0b5c2f1ee379a8b259975fa9e157e282c2a25e3406",
+          "sha1": "b4a7d1d613687230b68d0359ed0dff1da432bd4b",
+          "md5": "091b78755d072cea8aca4bd5161e23d0"
+        }
+      ]
+    }
+  ]
+}
