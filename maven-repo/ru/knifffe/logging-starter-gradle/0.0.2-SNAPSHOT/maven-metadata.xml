@@ -3,26 +3,26 @@
   <groupId>ru.knifffe</groupId>
   <artifactId>logging-starter-gradle</artifactId>
   <versioning>
-    <lastUpdated>20250310153203</lastUpdated>
+    <lastUpdated>20250310185443</lastUpdated>
     <snapshot>
-      <timestamp>20250310.153203</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250310.185443</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.2-20250310.153203-1</value>
-        <updated>20250310153203</updated>
+        <extension>module</extension>
+        <value>0.0.2-20250310.185443-2</value>
+        <updated>20250310185443</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.2-20250310.153203-1</value>
-        <updated>20250310153203</updated>
+        <value>0.0.2-20250310.185443-2</value>
+        <updated>20250310185443</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.2-20250310.153203-1</value>
-        <updated>20250310153203</updated>
+        <extension>pom</extension>
+        <value>0.0.2-20250310.185443-2</value>
+        <updated>20250310185443</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
