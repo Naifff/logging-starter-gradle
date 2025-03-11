@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.knifffe",
+    "module": "logging-starter-gradle",
+    "version": "1.0.0-RC1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "logging-starter-gradle-1.0.0-RC1.jar",
+          "url": "logging-starter-gradle-1.0.0-RC1.jar",
+          "size": 9186,
+          "sha512": "e2eb6b9b9778b24cbea1f03c90e80bf6218bb37d8c29b4bd58cd6c5b932227946192833321aa8f62d15495a6505e2d5159e73f431c89fc93b5537c3d0d929d65",
+          "sha256": "99b79d2a26d3f904325fcb1b381f3a0adbbe98acafaf06585ef8d1fad9940b30",
+          "sha1": "07a3e4c546a5478cfb4b60cd431eeaa48c2e3861",
+          "md5": "34245c34536cdc11749fc5338bd51d23"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.2.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-starter-gradle-1.0.0-RC1.jar",
+          "url": "logging-starter-gradle-1.0.0-RC1.jar",
+          "size": 9186,
+          "sha512": "e2eb6b9b9778b24cbea1f03c90e80bf6218bb37d8c29b4bd58cd6c5b932227946192833321aa8f62d15495a6505e2d5159e73f431c89fc93b5537c3d0d929d65",
+          "sha256": "99b79d2a26d3f904325fcb1b381f3a0adbbe98acafaf06585ef8d1fad9940b30",
+          "sha1": "07a3e4c546a5478cfb4b60cd431eeaa48c2e3861",
+          "md5": "34245c34536cdc11749fc5338bd51d23"
+        }
+      ]
+    }
+  ]
+}

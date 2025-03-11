@@ -3,12 +3,14 @@
   <groupId>ru.knifffe</groupId>
   <artifactId>logging-starter-gradle</artifactId>
   <versioning>
-    <latest>0.0.3-SNAPSHOT</latest>
+    <latest>1.0.0-RC1</latest>
+    <release>1.0.0-RC1</release>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
       <version>0.0.2-SNAPSHOT</version>
       <version>0.0.3-SNAPSHOT</version>
+      <version>1.0.0-RC1</version>
     </versions>
-    <lastUpdated>20250310192044</lastUpdated>
+    <lastUpdated>20250311093839</lastUpdated>
   </versioning>
 </metadata>
