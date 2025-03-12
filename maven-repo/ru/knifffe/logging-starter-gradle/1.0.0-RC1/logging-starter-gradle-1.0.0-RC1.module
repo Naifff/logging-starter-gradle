@@ -27,11 +27,11 @@
         {
           "name": "logging-starter-gradle-1.0.0-RC1.jar",
           "url": "logging-starter-gradle-1.0.0-RC1.jar",
-          "size": 9186,
-          "sha512": "e2eb6b9b9778b24cbea1f03c90e80bf6218bb37d8c29b4bd58cd6c5b932227946192833321aa8f62d15495a6505e2d5159e73f431c89fc93b5537c3d0d929d65",
-          "sha256": "99b79d2a26d3f904325fcb1b381f3a0adbbe98acafaf06585ef8d1fad9940b30",
-          "sha1": "07a3e4c546a5478cfb4b60cd431eeaa48c2e3861",
-          "md5": "34245c34536cdc11749fc5338bd51d23"
+          "size": 9809,
+          "sha512": "7344df9b809aee2b6004cbede3b4712b91086374467bfa0d61bc93a43be1270523abda50b1e665650734ce0538ec05f399a1d0ef95fbf6357ad76093d131f504",
+          "sha256": "ec646f18c9a90aea9e19b2090699c07bca55d14d040dcd4fc3bfc4a49fb4889f",
+          "sha1": "63d8952c65f5ea5f68da080e2fb5346e9a93a7f9",
+          "md5": "f6bd3ba7f04ecc3579b877644e5ce5b1"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "logging-starter-gradle-1.0.0-RC1.jar",
           "url": "logging-starter-gradle-1.0.0-RC1.jar",
-          "size": 9186,
-          "sha512": "e2eb6b9b9778b24cbea1f03c90e80bf6218bb37d8c29b4bd58cd6c5b932227946192833321aa8f62d15495a6505e2d5159e73f431c89fc93b5537c3d0d929d65",
-          "sha256": "99b79d2a26d3f904325fcb1b381f3a0adbbe98acafaf06585ef8d1fad9940b30",
-          "sha1": "07a3e4c546a5478cfb4b60cd431eeaa48c2e3861",
-          "md5": "34245c34536cdc11749fc5338bd51d23"
+          "size": 9809,
+          "sha512": "7344df9b809aee2b6004cbede3b4712b91086374467bfa0d61bc93a43be1270523abda50b1e665650734ce0538ec05f399a1d0ef95fbf6357ad76093d131f504",
+          "sha256": "ec646f18c9a90aea9e19b2090699c07bca55d14d040dcd4fc3bfc4a49fb4889f",
+          "sha1": "63d8952c65f5ea5f68da080e2fb5346e9a93a7f9",
+          "md5": "f6bd3ba7f04ecc3579b877644e5ce5b1"
         }
       ]
     }
