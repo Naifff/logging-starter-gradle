@@ -5,7 +5,6 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.apache.logging.log4j.util.Strings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -15,8 +14,9 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
+
+import static ru.knifffe.loggingstartergradle.util.Utils.getFoematdQueryString;
 
 @Component
 public class WebLoggingFilter extends HttpFilter {
@@ -53,11 +53,5 @@ public class WebLoggingFilter extends HttpFilter {
                 })
                 .collect(Collectors.joining(","));
         return "headers={" + inlineHeaders + "}";
-    }
-
-    private static String getFoematdQueryString(HttpServletRequest request) {
-        return Optional.ofNullable(request.getQueryString())
-                .map(qs -> "?" + qs)
-                .orElse(Strings.EMPTY);
     }
 }

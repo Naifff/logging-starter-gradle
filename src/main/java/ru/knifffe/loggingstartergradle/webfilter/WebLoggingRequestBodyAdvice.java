@@ -1,7 +1,6 @@
 package ru.knifffe.loggingstartergradle.webfilter;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.apache.logging.log4j.util.Strings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.RequestBodyAdviceAdapter;
 
 import java.lang.reflect.Type;
-import java.util.Optional;
+
+import static ru.knifffe.loggingstartergradle.util.Utils.getFoematdQueryString;
 
 @ControllerAdvice
 public class WebLoggingRequestBodyAdvice extends RequestBodyAdviceAdapter {
@@ -34,11 +34,5 @@ public class WebLoggingRequestBodyAdvice extends RequestBodyAdviceAdapter {
     @Override
     public boolean supports(MethodParameter methodParameter, Type targetType, Class<? extends HttpMessageConverter<?>> converterType) {
         return true;
-    }
-
-    private static String getFoematdQueryString(HttpServletRequest request) {
-        return Optional.ofNullable(request.getQueryString())
-                .map(qs -> "?" + qs)
-                .orElse(Strings.EMPTY);
     }
 }
