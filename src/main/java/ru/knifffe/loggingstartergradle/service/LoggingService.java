@@ -17,7 +17,6 @@ import java.util.stream.Collectors;
 
 import static ru.knifffe.loggingstartergradle.util.Utils.getFoematdQueryString;
 
-@Service
 public class LoggingService {
 
     private static final Logger log = LoggerFactory.getLogger(LoggingService.class);
