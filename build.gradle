@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'ru.knifffe'
-version = '1.0.0-RC1'
+version = '1.0.0-RC2'
 
 repositories {
     mavenLocal()
@@ -17,7 +17,7 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web:${springVersion}"
     implementation "org.springframework.boot:spring-boot-starter-aop:${springVersion}"
 
-
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.1.4'
 }
 
 tasks.named('test') {

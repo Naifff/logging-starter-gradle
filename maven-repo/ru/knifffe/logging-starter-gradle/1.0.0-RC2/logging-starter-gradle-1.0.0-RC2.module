@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.knifffe",
+    "module": "logging-starter-gradle",
+    "version": "1.0.0-RC2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "logging-starter-gradle-1.0.0-RC2.jar",
+          "url": "logging-starter-gradle-1.0.0-RC2.jar",
+          "size": 13767,
+          "sha512": "3064121d6d46cb1b1644386392b4aaea2c578b67e1f76d946a06b21f14ea70f577af0f5e33698c65ca46c5973740c61f456dcad633a3d3be3a057a1b9f379ac4",
+          "sha256": "d2d342579097c2b1bf245a32059a9a9177321efd61320782ef2c95aafda2759f",
+          "sha1": "71e09e298d9e67206a2bb27db3809cb477aac4a3",
+          "md5": "07ea1ecb9e4b31b9ea5eee22e0beba40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.2.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.2.5"
+          }
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-openfeign",
+          "version": {
+            "requires": "4.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-starter-gradle-1.0.0-RC2.jar",
+          "url": "logging-starter-gradle-1.0.0-RC2.jar",
+          "size": 13767,
+          "sha512": "3064121d6d46cb1b1644386392b4aaea2c578b67e1f76d946a06b21f14ea70f577af0f5e33698c65ca46c5973740c61f456dcad633a3d3be3a057a1b9f379ac4",
+          "sha256": "d2d342579097c2b1bf245a32059a9a9177321efd61320782ef2c95aafda2759f",
+          "sha1": "71e09e298d9e67206a2bb27db3809cb477aac4a3",
+          "md5": "07ea1ecb9e4b31b9ea5eee22e0beba40"
+        }
+      ]
+    }
+  ]
+}
